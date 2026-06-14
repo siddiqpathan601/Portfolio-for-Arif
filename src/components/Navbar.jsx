@@ -16,7 +16,7 @@ export const Navbar = () => {
                 style={{ fontFamily: "'Poppins', sans-serif" }}
               >
                 arif
-                <span className="bg-gradient-to-r from-[#80FFD2] to-[#6A57E0] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[#22D3EE] to-[#7C3AED] bg-clip-text text-transparent">
                   .dev
                 </span>
               </h1>

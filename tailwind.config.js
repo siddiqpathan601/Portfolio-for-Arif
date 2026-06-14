@@ -7,14 +7,14 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        deepBlue:"linear-gradient(90deg, #161B23 0%, #1C212A 25%, #1C212A 50%, #1C212A 75%, #1C212A 100%)",
+        deepBlue:"linear-gradient(90deg, #0B1120 0%, #0F172A 25%, #0F172A 50%, #0F172A 75%, #0B1120 100%)",
         fontBlue:"linear-gradient(50deg, #B597F6 0%, #96C6EA 100%)",
       },
       colors:{
-        color1:"#6A57E0",
-        color1Hover:"#563ef4",
-        color2:"#80FFD2",
-        color3:"#161B23",
+        color1:"#7C3AED",
+        color1Hover:"#6D28D9",
+        color2:"#22D3EE",
+        color3:"#0B1120",
       },
       fontFamily:{
         sora:["Sora","sans"]

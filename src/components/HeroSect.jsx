@@ -42,7 +42,7 @@ const CountUp = ({ to, label, suffix = "" }) => {
 
   return (
     <div className="flex flex-col">
-      <span className="text-2xl md:text-3xl font-extrabold text-color2 drop-shadow-[0_0_8px_rgba(128,255,210,0.3)]">
+      <span className="text-2xl md:text-3xl font-extrabold text-color2 drop-shadow-[0_0_8px_rgba(34,211,238,0.35)]">
         {count}{suffix}
       </span>
       <span className="text-white/60 text-[10px] md:text-xs uppercase tracking-wider font-semibold mt-1">
@@ -103,11 +103,7 @@ export const HeroSect = () => {
     }
   };
 
-  const badges = [
-    { text: "MERN Stack Developer", icon: "🚀" },
-    { text: "Machine Learning Engineer", icon: "🧠" },
-    { text: "Problem Solver", icon: "⚡" }
-  ];
+
 
   return (
     <>
@@ -132,7 +128,10 @@ export const HeroSect = () => {
           >
             {/* 1. Greeting */}
             <motion.div variants={itemVariants}>
-              <span className="font-bold text-sm md:text-base uppercase tracking-wider text-color2 px-3 py-1.5 bg-color2/5 border border-color2/15 rounded-full inline-block">
+              <span 
+                style={{ fontFamily: "'Poppins', sans-serif" }} 
+                className="font-extrabold text-xs md:text-sm uppercase tracking-widest bg-gradient-to-r from-[#22D3EE] to-[#7C3AED] bg-clip-text text-transparent px-5 py-2.5 bg-[#0B1120]/45 border border-[#7C3AED]/25 rounded-lg backdrop-blur-md inline-block shadow-[0_0_20px_rgba(124,58,237,0.12)] relative overflow-hidden"
+              >
                 Hi, I&apos;m Shaik Arif 👋
               </span>
             </motion.div>
@@ -142,21 +141,7 @@ export const HeroSect = () => {
               <HeroRoles />
             </motion.div>
 
-            {/* 4. Achievement Badges */}
-            <motion.div 
-              variants={itemVariants}
-              className="flex flex-wrap gap-2 mt-6"
-            >
-              {badges.map((badge, idx) => (
-                <div 
-                  key={idx}
-                  className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-white/90 text-xs flex items-center gap-1.5 backdrop-blur-sm hover:border-color2/40 hover:bg-white/10 duration-200 transition-all cursor-default"
-                >
-                  <span>{badge.icon}</span>
-                  <span>{badge.text}</span>
-                </div>
-              ))}
-            </motion.div>
+
 
             {/* 5. Statistics Row */}
             <motion.div 

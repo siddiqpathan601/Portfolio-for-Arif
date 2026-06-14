@@ -6,15 +6,15 @@
 
 :root {
   /* Dark Theme Colors */
-  --color-primary: #00e0ff;
-  --color-secondary: #8b5cf6;
-  --color-accent: #f97316;
-  --color-glow: rgba(0, 224, 255, 0.45);
+  --color-primary: #7c3aed;
+  --color-secondary: #22d3ee;
+  --color-accent: #8b5cf6;
+  --color-glow: rgba(139, 92, 246, 0.45);
 
   /* Dark Theme Background */
-  --bg-900: #0d0d0f;
-  --bg-800: #1a1a1d;
-  --bg-700: #232326;
+  --bg-900: #0b1120;
+  --bg-800: #0f172a;
+  --bg-700: #1e293b;
   --glass: rgba(255, 255, 255, 0.04);
 
   /* Dark Theme Text */
@@ -23,7 +23,7 @@
 
   /* Dark Theme Borders & Shadows */
   --border: rgba(255, 255, 255, 0.08);
-  --shadow-glow: 0 0 20px rgba(0, 224, 255, 0.25);
+  --shadow-glow: 0 0 20px rgba(139, 92, 246, 0.25);
 }
 
 [data-theme="light"] {

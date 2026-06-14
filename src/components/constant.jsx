@@ -9,7 +9,7 @@ import project2 from "../assets/images/projectImages/project2.png";
 
 export const Projects = {
   RainfallPrediction: {
-    image: project1,
+    image: project2,
     title: "Rainfall Prediction System",
     subTitle: "Machine Learning Forecasting System",
     githubLink: "https://github.com/Shaikarif11/Rainfall-Prediction-System",
@@ -21,7 +21,7 @@ export const Projects = {
     },
   },
   LiverDiseasePrediction: {
-    image: project2,
+    image: project1,
     title: "Liver Disease Prediction System",
     subTitle: "End-to-End Predictive Healthcare System",
     githubLink: "https://github.com/Shaikarif11/Liver-Disease-Prediction-System",

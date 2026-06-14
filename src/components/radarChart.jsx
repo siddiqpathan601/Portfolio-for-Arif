@@ -39,13 +39,13 @@ export const RadarChart = () => {
       {
         label: "Skill Proficiency (%)",
         data: [90, 95, 95, 90, 85, 80, 85, 80, 75, 85, 80, 85],
-        backgroundColor: "rgba(128, 255, 210, 0.25)",
-        borderColor: "#80ffd2",
+        backgroundColor: "rgba(34, 211, 238, 0.25)",
+        borderColor: "#22d3ee",
         borderWidth: 2,
-        pointBackgroundColor: "#80ffd2",
+        pointBackgroundColor: "#22d3ee",
         pointBorderColor: "#ffffff",
         pointHoverBackgroundColor: "#ffffff",
-        pointHoverBorderColor: "#80ffd2",
+        pointHoverBorderColor: "#22d3ee",
       },
     ],
   };
@@ -80,7 +80,7 @@ export const RadarChart = () => {
       legend: {
         position: "top",
         labels: {
-          color: "#80ffd2",
+          color: "#22d3ee",
           font: {
             size: 12,
           },
