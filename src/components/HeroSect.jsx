@@ -8,7 +8,6 @@ import scrollIcon from "../assets/icons/scroll-animation.svg";
 // New high-fidelity interactive sub-components
 import OrbitSkills from "./OrbitSkills";
 import FloatingParticles from "./FloatingParticles";
-import AnimatedSkillCards from "./AnimatedSkillCards";
 
 export const HeroSect = () => {
   // Cycle titles relevant to Shaik Arif
@@ -201,9 +200,6 @@ export const HeroSect = () => {
 
             {/* Orbiting skill icons */}
             <OrbitSkills />
-
-            {/* Floating glassmorphism skill cards */}
-            <AnimatedSkillCards />
 
             {/* Floating character wrapper with parallax tilt */}
             <motion.div

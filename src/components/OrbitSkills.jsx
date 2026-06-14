@@ -13,6 +13,10 @@ import TailwindIcon from "../assets/icons/skills-icon/tailwindcss.svg";
 import MLIcon from "../assets/icons/skills-icon/ml.png";
 import FigmaIcon from "../assets/icons/skills-icon/figma.svg";
 import APIIcon from "../assets/icons/skills-icon/Rest-apis.png";
+import HtmlIcon from "../assets/icons/skills-icon/html.svg";
+import CssIcon from "../assets/icons/skills-icon/css.svg";
+import CppIcon from "../assets/icons/skills-icon/cpp.svg";
+import DjangoIcon from "../assets/icons/skills-icon/django.svg";
 
 export default function OrbitSkills() {
   const innerSkills = [
@@ -22,6 +26,8 @@ export default function OrbitSkills() {
     { name: "TypeScript", icon: TsIcon },
     { name: "Tailwind CSS", icon: TailwindIcon },
     { name: "MongoDB", icon: MongoIcon },
+    { name: "HTML5", icon: HtmlIcon },
+    { name: "CSS3", icon: CssIcon },
   ];
 
   const outerSkills = [
@@ -31,6 +37,8 @@ export default function OrbitSkills() {
     { name: "Machine Learning", icon: MLIcon },
     { name: "Figma", icon: FigmaIcon },
     { name: "REST APIs", icon: APIIcon },
+    { name: "C++", icon: CppIcon },
+    { name: "Django", icon: DjangoIcon },
   ];
 
   const getPosition = (index, total, radius) => {
@@ -40,8 +48,8 @@ export default function OrbitSkills() {
     return { x, y };
   };
 
-  const innerRadius = 140;
-  const outerRadius = 220;
+  const innerRadius = 145;
+  const outerRadius = 225;
 
   return (
     <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10 scale-[0.75] sm:scale-[0.85] md:scale-100">
@@ -56,7 +64,7 @@ export default function OrbitSkills() {
       <motion.div
         animate={{ rotate: 360 }}
         transition={{
-          duration: 22,
+          duration: 25,
           repeat: Infinity,
           ease: "linear"
         }}
@@ -77,7 +85,7 @@ export default function OrbitSkills() {
               <motion.div
                 animate={{ rotate: -360 }}
                 transition={{
-                  duration: 22,
+                  duration: 25,
                   repeat: Infinity,
                   ease: "linear"
                 }}
@@ -101,7 +109,7 @@ export default function OrbitSkills() {
       <motion.div
         animate={{ rotate: -360 }}
         transition={{
-          duration: 38,
+          duration: 40,
           repeat: Infinity,
           ease: "linear"
         }}
@@ -122,7 +130,7 @@ export default function OrbitSkills() {
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{
-                  duration: 38,
+                  duration: 40,
                   repeat: Infinity,
                   ease: "linear"
                 }}
